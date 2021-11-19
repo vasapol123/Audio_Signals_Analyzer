@@ -37,6 +37,7 @@ classdef Audio_Signals_Analyzer < matlab.apps.AppBase
             app.ListBox.ItemsData(index) = [];
             cla(app.UIAxes);
             cla(app.UIAxes2);
+            cla(app.UIAxes3);
             if (isempty(app.ListBox.Items) ~= true)
                 ListBoxValueChanged(app, event);
             end 
