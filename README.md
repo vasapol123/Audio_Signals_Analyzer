@@ -1,5 +1,5 @@
 # Audio_Signals_Analyzer 📈
-An audio signals analyzer is a test and measurement instrument used to objectively quantify the audio performance.
+The audio signals analyzer is a test and measurement instrument used to objectively quantify the audio performance.
 ## Introduction
 This project is prepared in partial fulfillment of the requirements for the Intro to Signals & Systems subject 010123106 which is a part of the computer engineering curriculum in King Mongkut’s University of Technology North Bangkok — KMUTNB — Thailand.
 ## Team Members
