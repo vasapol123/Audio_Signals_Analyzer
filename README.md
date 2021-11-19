@@ -16,5 +16,5 @@ In the audio signals analyzer program has 3 2-axis graphs:
 - The graph at the middle is used to display the audio signal that is combined with more than one audio singal and display the waveform in time-domain.
 - The graph at the bottom is used to display the combined audio signal in frequency domain, i.e. displaying the frequency spectrum of the combined audio signal.
 # Illustration
-![unnamed (1)](https://user-images.githubusercontent.com/88476531/142589289-718b9ee2-0aa5-4f8e-b3e8-be8ec4539b81.png)
+<p><img src="https://user-images.githubusercontent.com/88476531/142589289-718b9ee2-0aa5-4f8e-b3e8-be8ec4539b81.png" width="auto" height="600"></p>
 
