@@ -19,3 +19,12 @@ If you would like to import audio signal to the audio signals analyzer program f
 In addition, users can merge one or more audio file as implied by clicking the **Merge selected files** button. The program will merge the selected files and reads data from the merge file, and then display the waveform at the middle graph. If you would like to listen to the audio file, you can click the **Play** button to play the audio file, the **Pause/Resume** to temporary stop the audio file or play the audio file again from the point at which it was paused, and the **Stop** button to stop playing the audio file. You can increase or decrease the volume of the audio file by silding the volume silder below the **Stop** button as well.
 # Illustration
 ![Capture](https://user-images.githubusercontent.com/88476811/142654317-c32e378a-e1cc-41fb-af47-30bd7d2937b6.JPG)
+
+# More Feature
+- Reverse Audio File
+- Invert
+- Normalize
+- Change Audio Speed (Change SampleRate Without Change audio data)
+- Change Audio Gain
+- Trim Audio
+- Export Merge Audio to .wav file
