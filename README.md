@@ -22,7 +22,7 @@ In addition, users can merge one or more audio file as implied by clicking the *
 - The **Reverse** option on the audio operation panel reverses the selected audio file, so that the end of the audio will be heard first and the beginning last—which means that it essentially flips the waveform on its head. You can also create interesting sound effects by recording natural events and reversing the audio.
 - The **Inverse** option inverts the phase of the selected audio file. It is mostly used to avoid the effect of phase cancellation. For example, when you record an audio file with multiple microphones, their phase will probably cancel each other. Therefore, if you visually notice that thing happens, inverting one of the channels shuold  solve the issue.
 - The **Normalize** option is the audio normalization which is a process that increase the level of the selected audio file by a constant amount so that it reaches a target—or norm. Normalization applies the same level increase to the entire duration of the audio file.
-- The **Speed** option is an option set to adjust the audio speed. You must type a number or click the up/down button to adjust sound the audio speed.
+- The **Speed** option is an option set to adjust the audio speed. You must type a number or click the up/down button to adjust the audio speed.
 # Illustration
 ![Capture](https://user-images.githubusercontent.com/88476811/142654317-c32e378a-e1cc-41fb-af47-30bd7d2937b6.JPG)
 
