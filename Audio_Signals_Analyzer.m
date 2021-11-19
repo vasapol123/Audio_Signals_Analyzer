@@ -126,46 +126,6 @@ classdef Audio_Signals_Analyzer < matlab.apps.AppBase
             end
         end
 
-        % Callback function
-        function TestOiasdladljashbdfkashfsaButtonPushed(app, event)
-            [filename,filepath] = uigetfile('*.wav');  %open a mat file
-            filepath = strcat(filepath,filename);
-            [y1, fs1] = audioread(filepath);
-            
-            [filename,filepath] = uigetfile('*.wav');  %open a mat file
-            filepath = strcat(filepath,filename);
-            [y2, fs2] = audioread(filepath);
-            
-            lenY = size(y1, 1);
-            lenZ = size(y2, 1);
-            len = max(lenY, lenZ);
-            S = zeros(len, size(y1, 2));
-            S(1:lenY, :) = y1;
-            S(1:lenZ, :) = S(1:lenZ, :) + y2;
-            maxValue = max(abs(S(:)));
-            S = S / maxValue;
-            if (length(y1) >= length(y2))
-                t = (1:length(y1)) / fs1;
-                f = fs1;
-            else
-                t = (1:length(y2)) / fs2;
-                f = fs2;
-            end
-            plot(app.UIAxes,t, S);
-            soundsc(S,f);
-            
-            
-            
-            
-            %minimumLength = min([length(y1), length(y2)]);
-            %y1 = y1(1:minimumLength);
-            %y2 = y2(1:minimumLength);
-            %y3 = y1+y2;
-            %t = (1:minimumLength) / 44100;
-            %plot(app.UIAxes,t, y3*0.5);
-
-        end
-
         % Button pushed function: MergeselectedfilesButton
         function MergeselectedfilesButtonPushed(app, event)
             filePath = app.ListBox.Value;
