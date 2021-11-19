@@ -6,7 +6,7 @@ This project is prepared in partial fulfillment of the requirements for the Intr
 - "Vasapol Rittideah" s6301012620171@email.kmutnb.ac.th
 - "Pooncharat Wongkom" s6301012620146@email.kmutnb.ac.th
 - "Phiraphon Phansa-nga" s6301012620162@email.kmutnb.ac.th
-- "Thanathorn" s6301012610043@email.kmutnb.ac.th
+- "Thanathorn Laothaweekun" s6301012610043@email.kmutnb.ac.th
 # Overview
-There are 2 work functions for generating an input signal: select and load .wav audio file. Then the resulting audio signal is analyzed by displaying the waveform in the Time Domain and including displaying the frequency spectrum of the audio signal in the Frequency Domain. 
-# Features
+There are 2 work functions for generating an input signal: select and load .wav audio file. Then the resulting audio signal is analyzed by displaying the waveform in the Time Domain and including displaying the frequency spectrum of the audio signal in the Frequency Domain. Users can select more than one audio signal to combine for analysis by displaying the waveform of the audio signal in the Time Domain. 
+
