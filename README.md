@@ -28,12 +28,3 @@ In addition, users can merge one or more audio file as implied by clicking the *
 - You can export your merge audio to `.wav` file by clicking the **Export Merge Audio to File** button.
 # Illustration
 ![Capture](https://user-images.githubusercontent.com/88476811/142654317-c32e378a-e1cc-41fb-af47-30bd7d2937b6.JPG)
-
-# More Feature
-- Reverse Audio File
-- Invert
-- Normalize
-- Change Audio Speed (Change SampleRate Without Change audio data)
-- Change Audio Gain
-- Trim Audio
-- Export Merge Audio to .wav file
