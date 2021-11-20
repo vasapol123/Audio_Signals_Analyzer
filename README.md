@@ -23,7 +23,7 @@ In addition, users can merge one or more audio file as implied by clicking the *
 - The **Inverse** option inverts the phase of the selected audio file. It is mostly used to avoid the effect of phase cancellation. For example, when you record an audio file with multiple microphones, their phase will probably cancel each other. Therefore, if you visually notice that thing happens, inverting one of the channels shuold  solve the issue. This option inverts the audio file 180° (degree).
 - The **Normalize** option is the audio normalization which is a process that increase the level of the selected audio file by a constant amount so that it reaches a target—or norm. Normalization applies the same level increase to the entire duration of the audio file.
 - The **Speed** option is an option set to adjust the audio speed. You must type a number or click the up/down button to adjust the audio speed. Note that this option changes the audio sample rate without changing the audio data.
-- The **Amplitude** option is to gain audio amplitude. THe gain controls how loud the audio file is *before* it goes through any futher processing.
+- The **Amplitude** option is to gain audio amplitude. The gain controls how loud the audio file is *before* it goes through any futher processing.
 - The **Trim** option lets you cut the audio file, which means that you can remove or delete unwanted parts of the audio file. You can see thatthe length of the audio is shown on **AudioLength** in second, so you can arbitrarily choose whether when you want the audio file to start or to end.
 - You can export your merge audio to `.wav` file by clicking the **Export Merge Audio to File** button.
 # Illustration
